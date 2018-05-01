@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.feng.edward.percentprogressbardemo1.view.PercentProgressBar
+            android:id="@+id/circle_percent_view"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_gravity="center"
+            app:percentTextSize="10sp"
+            app:percentTextColor="#ff0000"
+            app:progressFrontColor="@color/colorPrimary"
+            app:progressWidth="2dp"
+    />
+    <com.feng.edward.percentprogressbardemo1.view.CircleImageView
+            android:id="@+id/circle_image_view"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:alpha="0"
+            android:layout_gravity="center"
+            android:src="@mipmap/jianshu_logo"/>
+</FrameLayout>
